@@ -1,0 +1,18 @@
+{
+  "name": "@kumojin/renovate-config",
+  "description": "Kumojin preset for Renovate",
+  "license": "MIT",
+  "homepage": "https://github.com/kumojin/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumojin/renovate-config.git"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator default.json",
+    "test": "npm run validate"
+  },
+  "packageManager": "pnpm@10.32.1",
+  "devDependencies": {
+    "renovate": "latest"
+  }
+}

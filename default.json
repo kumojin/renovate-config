@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    "schedule:earlyMondays"
+  ],
+  "automerge": false,
+  "minimumReleaseAge": "3 days",
+  "osvVulnerabilityAlerts": true,
+  "timezone": "America/Toronto",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "Minor and Patch Updates"
+    }
+  ]
+}
