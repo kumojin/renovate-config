@@ -1,12 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:best-practices",
-    "schedule:earlyMondays"
+    "config:best-practices"
   ],
   "automerge": false,
   "minimumReleaseAge": "3 days",
   "osvVulnerabilityAlerts": true,
+  "schedule": ["before 9am on Monday"],
   "timezone": "America/Toronto",
   "packageRules": [
     {
