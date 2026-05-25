@@ -11,7 +11,7 @@
     "validate": "renovate-config-validator default.json",
     "test": "npm run validate"
   },
-  "packageManager": "pnpm@11.1.2",
+  "packageManager": "pnpm@11.2.2",
   "devDependencies": {
     "renovate": "latest"
   }
