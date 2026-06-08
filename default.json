@@ -6,6 +6,7 @@
   "automerge": false,
   "minimumReleaseAge": "3 days",
   "osvVulnerabilityAlerts": true,
+  "postUpdateOptions": ["gomodTidy", "gomodUpdateImportPaths"],
   "schedule": ["before 9am on Monday"],
   "timezone": "America/Toronto",
   "packageRules": [
