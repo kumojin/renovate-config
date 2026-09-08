@@ -13,6 +13,12 @@
     {
       "matchUpdateTypes": ["minor", "patch"],
       "groupName": "Minor and Patch Updates"
+    },
+    {
+      "matchManagers": ["gomod"],
+      "matchDepNames": ["go"],
+      "matchDepTypes": ["golang"],
+      "rangeStrategy": "bump"
     }
   ]
 }
